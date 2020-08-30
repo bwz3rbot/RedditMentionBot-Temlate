@@ -118,10 +118,12 @@ mentionEmitter.on("mention", (item) => {
     }
 })
 
+// Startup Message
 mentionEmitter.once("mention", () => {
     console.log(`Initializing.... Please wait while I check the ${limit} most recent requests.`.bgBlack.yellow)
 })
 
+// Messaging Queue Popper
 mentionEmitter.once("mention", () => {
     runOnceIndefinately();
 })
