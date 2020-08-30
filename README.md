@@ -1,5 +1,5 @@
 # RedditBot Template for JavaScript
-(Snoowrap mention messaging queue)
+Snoowrap mention messaging queue
 
 ## Table of Contents
 
