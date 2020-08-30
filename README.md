@@ -1,4 +1,4 @@
-# Snoo-Stream Template
+# RedditBot Template for JavaScript (Snoowrap mention messaging queue)
 
 ## Table of Contents
 
