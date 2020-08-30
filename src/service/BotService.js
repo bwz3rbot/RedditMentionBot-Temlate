@@ -12,7 +12,6 @@ async function doSomething(item) {
     if (!item.saved) {
         console.log(`processing item: ${item.id}`)
         console.dir(item)
-
         //
         // CODE STARTS HERE //
 
@@ -29,36 +28,33 @@ async function doSomething(item) {
         // CODE ENDS HERE //
         //
         // Be sure to finish with saveItem(item) so the item will not be processed again.
-        await saveItem(item)
+        await saveItem(item) // Leave this line where it is!
         return console.log(`item  ${item.id} successfully processed!`)
     } else {
         return console.log(`item ${item.id} saved already. Skipping...`)
     }
-
-
-
 }
 
-
+// 
 // Write your functions down here and call them inside of doSomething.
-
 const printContents = function (item) {
     console.log(('printing contents of item.body:\n ' + item.body).green)
-
     return Promise.resolve(item)
-
 }
-
 const replyToComment = function (item) {
     console.log("replying to comment...".grey)
     return requester.getComment(item.id).reply("I just replied!")
 }
+// 
+
+
+
+// 
+// Leave this function alone!
 const saveItem = function (item) {
     console.log("saving the comment...".grey)
     return requester.getComment(item.id).save();
 }
-
-
 module.exports = {
     doSomething: doSomething
 }
