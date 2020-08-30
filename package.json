@@ -1,0 +1,32 @@
+{
+  "name": "snoostreamtemplate",
+  "version": "1.0.0",
+  "description": "Creates a stream with a messaging queue for Reddit Inbox",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-temps/SnooStreamTemplate.git"
+  },
+  "keywords": [
+    "Snoowrap",
+    "Reddit",
+    "Stream",
+    "Utility",
+    "Bot"
+  ],
+  "author": "JDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-temps/SnooStreamTemplate/issues"
+  },
+  "homepage": "https://github.com/web-temps/SnooStreamTemplate#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "snoowrap": "^1.21.0"
+  }
+}
