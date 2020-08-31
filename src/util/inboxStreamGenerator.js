@@ -31,7 +31,7 @@ const getInbox = function () {
     }
 
     return snoowrap.getInbox({
-        filter: 'unread' | 'mention',
+        filter: 'mention',
         limit: limit
     })
 }
