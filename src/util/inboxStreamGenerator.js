@@ -54,7 +54,7 @@ const streamInMentions = function () {
         }
         
         snoowrap.getInbox({
-            filter: 'unread',
+            filter: 'mentions',
             limit: 10
         }).then((listing) => {
 
