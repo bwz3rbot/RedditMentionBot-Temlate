@@ -15,7 +15,6 @@ const config = {
     warnings: true,
     continueAfterRatelimitError: false,
     retryErrorCodes: [502, 503, 504, 522],
-    maxRetryAttempts: 3,
     debug: false
 }
 
