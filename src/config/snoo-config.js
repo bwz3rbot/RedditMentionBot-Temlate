@@ -14,7 +14,7 @@ const config = {
     requestDelay: 5000,
     warnings: true,
     continueAfterRatelimitError: false,
-    retryErrorCodes: [502, 504, 522],
+    retryErrorCodes: [502, 503, 504, 522],
     maxRetryAttempts: 3,
     debug: false
 }
